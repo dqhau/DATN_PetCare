@@ -1,0 +1,119 @@
+.notification-dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.notification-icon {
+  cursor: pointer;
+  position: relative;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.notification-icon:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  font-size: 10px;
+  padding: 3px 5px;
+}
+
+.notification-dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 350px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1050;
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #e9ecef;
+  /* Đảm bảo dropdown không bị tụt xuống dưới footer */
+  position: absolute !important;
+}
+
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.notification-header h6 {
+  margin: 0;
+  font-weight: 600;
+  color: #3a4da6;
+}
+
+.mark-all-read {
+  background: none;
+  border: none;
+  color: #3a4da6;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.notification-list {
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.notification-item {
+  padding: 12px 15px;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notification-item.unread {
+  background-color: #f0f4ff;
+  border-left: 3px solid #3a4da6;
+}
+
+.notification-content {
+  flex: 1;
+}
+
+.notification-message {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.notification-time {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.mark-read {
+  background: none;
+  border: 1px solid #3a4da6;
+  color: #3a4da6;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.no-notifications {
+  padding: 20px;
+  text-align: center;
+  color: #6c757d;
+  font-style: italic;
+}

@@ -1,0 +1,248 @@
+/* Không cần style này nữa vì đang dùng Card của Bootstrap */
+.reset-password-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.3s ease;
+}
+
+.form-container button:active {
+  scale: 0.95;
+}
+
+.form-container .logo-container {
+  text-align: center;
+}
+
+.form-container .logo-container h4 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-container .logo-container p {
+  font-size: 14px;
+}
+
+.form-container .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-container .form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-family: inherit;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+/* Styles cho icon khóa và container */
+.key-icon-container {
+  width: 60px;
+  height: 60px;
+  background-color: #007bff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.key-icon {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+}
+
+.key-icon-fallback {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M144 144c0-44.2 35.8-80 80-80s80 35.8 80 80v48H144V144zm-64 48H64c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V256c0-35.3-28.7-64-64-64H336V144C336 64.5 271.5 0 192 0S48 64.5 48 144v48z"/></svg>');
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+/* Styles cho form đặt lại mật khẩu */
+.password-field-container {
+  margin-bottom: 20px;
+}
+
+.password-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #495057;
+}
+
+.lock-icon {
+  margin-right: 8px;
+}
+
+.password-input {
+  padding-right: 40px !important;
+  border-radius: 6px;
+  height: 45px;
+  border: 1px solid #ced4da;
+}
+
+.eye-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #6c757d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 16px;
+  z-index: 10;
+}
+
+.eye-toggle:hover {
+  color: #495057;
+}
+
+.password-error {
+  color: #dc3545;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Button style */
+.reset-password-btn {
+  background-color: #4299e1 !important;
+  border-color: #4299e1 !important;
+  font-weight: 500;
+  height: 45px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.reset-password-btn:hover:not(:disabled) {
+  background-color: #3182ce !important;
+  border-color: #3182ce !important;
+  transform: translateY(-2px);
+}
+
+.form-container .form-group input::placeholder {
+  opacity: 0.5;
+}
+
+.form-container .form-group input:focus {
+  outline: none;
+  border-color: #1778f2;
+}
+
+.form-container .form-submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  color: #fff;
+  background-color: #0d6efd;
+  border: none;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 8px;
+  margin: 12px 0;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+  transition: all 0.3s ease;
+}
+
+.form-container .form-submit-btn:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-2px);
+}
+
+.form-container .form-submit-btn:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+  opacity: 0.7;
+  transform: none;
+}
+
+.form-container .link {
+  color: #0d6efd;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.back-link {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.back-link:hover {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.form-container .signup-link {
+  align-self: center;
+  font-weight: 500;
+}
+
+.form-container .signup-link .link {
+  font-weight: 400;
+}
+
+.form-container .link:hover {
+  text-decoration: underline;
+  color: #0b5ed7;
+}
+
+.invalid-feedback {
+  color: #dc3545;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.form-container .form-group label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #495057;
+}
+
+.forgot-password-container,
+.reset-password-container {
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

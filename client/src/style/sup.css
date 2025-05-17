@@ -1,0 +1,38 @@
+.support-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.support-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #1e90ff;
+}
+
+.clock-icon {
+  font-size: 2em;
+  margin-left: 10px;
+}
+
+.articles-section {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 10px;
+}
+
+.article {
+  margin: 15px 0;
+}
+
+.article h4 {
+  margin: 5px 0;
+}
+
+.article a {
+  color: #1e90ff;
+  text-decoration: none;
+}

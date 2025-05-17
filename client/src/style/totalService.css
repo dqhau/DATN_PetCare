@@ -1,0 +1,91 @@
+
+.carda {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.rowa {
+    font-family: 'Arial', sans-serif;
+    color: #4a4a4a;
+}
+.card-header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a4a4a;
+    background-color: #ffffff;
+    border-bottom: none;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+}
+
+.card-footer {
+    border-top: 1px solid #eeeeee;
+    padding: 15px;
+    background-color: #f5f6fa;
+    border-radius: 0 0 10px 10px;
+}
+
+.text-muted {
+    color: #888888 !important;
+}
+
+.text-info {
+    color: #17a2b8 !important;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+.text-secondary {
+    color: #6c757d !important;
+}
+
+.text-brand {
+    color: #ffc107 !important;
+}
+
+.icon-circle-medium {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-info-light {
+    background-color: rgba(23, 162, 184, 0.2) !important;
+}
+
+.bg-primary-light {
+    background-color: rgba(0, 123, 255, 0.2) !important;
+}
+
+.bg-secondary-light {
+    background-color: rgba(108, 117, 125, 0.2) !important;
+}
+
+.bg-brand-light {
+    background-color: rgba(255, 193, 7, 0.2) !important;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    border-radius: 5px;
+}
+
+.chartjs-render-monitor {
+    max-width: 100%;
+}
+
+  
+  

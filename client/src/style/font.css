@@ -1,0 +1,19 @@
+@font-face {
+     font-family: 'Fira Sans';
+     src: url('../font/FiraSans-Black.ttf') format('woff2'),
+          url('../font/FiraSans-Black.ttf') format('woff');
+     font-weight: 400;
+     /* Đặt trọng lượng phông chữ */
+     font-style: normal;
+     /* Đặt kiểu phông chữ (normal, italic, etc.) */
+}
+
+@font-face {
+     font-family: 'Montserratb';
+     src: url('../font/Montserrat-Bold.ttf') format('woff2'),
+          url('../font/Montserrat-Bold.ttf') format('woff');
+     font-weight: 72;
+     /* Đặt trọng lượng phông chữ */
+     font-style: normal;
+     /* Đặt kiểu phông chữ (normal, italic, etc.) */
+}

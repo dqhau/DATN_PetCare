@@ -1,0 +1,246 @@
+/* Pet Form Styling */
+.pet-form-modal .modal-content {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.pet-form-modal .modal-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #eaeaea;
+  padding: 1.25rem 1.5rem;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.pet-form-modal .modal-title {
+  font-weight: 600;
+  color: #343a40;
+  display: flex;
+  align-items: center;
+}
+
+.pet-form-modal .modal-title .pet-icon {
+  color: #273172;
+  margin-right: 0.75rem;
+}
+
+.pet-form-modal .modal-body {
+  padding: 1.5rem;
+}
+
+.pet-form-modal .modal-footer {
+  border-top: 1px solid #eaeaea;
+  padding: 1rem 1.5rem;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Form styling */
+.pet-form .form-label {
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.pet-form .form-label .field-icon {
+  margin-right: 0.5rem;
+  color: #6c757d;
+}
+
+.pet-form .form-control {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  padding: 0.6rem 0.8rem;
+  transition: all 0.2s ease;
+}
+
+.pet-form .form-control:focus {
+  border-color: #4dabf7;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.pet-form .form-select {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  padding: 0.6rem 0.8rem;
+  transition: all 0.2s ease;
+}
+
+.pet-form .form-select:focus {
+  border-color: #4dabf7;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.pet-form .form-check-input {
+  margin-top: 0.3rem;
+}
+
+.pet-form .form-check-label {
+  font-weight: 500;
+}
+
+/* Image preview and upload */
+.pet-image-section {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  border: 2px dashed #ced4da;
+}
+
+.pet-image-preview-container {
+  margin: 1rem 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.pet-image-preview {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.pet-image-preview:hover {
+  transform: scale(1.05);
+}
+
+.pet-image-upload-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background-color: #273172;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.pet-image-upload-label:hover {
+  background-color: #1e2759;
+  transform: translateY(-2px);
+}
+
+.pet-image-upload-label .upload-icon {
+  margin-right: 0.5rem;
+}
+
+.pet-image-upload-info {
+  margin-top: 0.75rem;
+  color: #6c757d;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.pet-image-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #6c757d;
+  height: 100%;
+}
+
+.pet-image-placeholder .placeholder-icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.5;
+}
+
+/* Buttons */
+.pet-form-btn {
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+}
+
+.pet-form-btn .btn-icon {
+  margin-right: 0.5rem;
+}
+
+.pet-form-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pet-form-btn-cancel {
+  background-color: #f8f9fa;
+  border-color: #ced4da;
+  color: #6c757d;
+}
+
+.pet-form-btn-cancel:hover {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.pet-form-btn-submit {
+  background-color: #273172;
+  border-color: #273172;
+}
+
+.pet-form-btn-submit:hover {
+  background-color: #1e2759;
+  border-color: #1e2759;
+}
+
+/* Upload progress */
+.upload-progress-container {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.upload-progress-bar {
+  height: 8px;
+  border-radius: 4px;
+  background-color: #e9ecef;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.upload-progress-fill {
+  height: 100%;
+  background-color: #273172;
+  transition: width 0.3s ease;
+}
+
+.upload-progress-text {
+  font-size: 0.85rem;
+  color: #6c757d;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .pet-form-modal .modal-body {
+    padding: 1rem;
+  }
+  
+  .pet-form-modal .modal-footer {
+    padding: 0.75rem 1rem;
+  }
+}

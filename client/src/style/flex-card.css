@@ -1,0 +1,157 @@
+/* Flex Card Layout - Dùng chung cho hiển thị thú cưng và sản phẩm */
+.flex-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 15px;
+}
+
+.flex-card {
+  flex: 0 0 calc(25% - 20px);
+  max-width: calc(25% - 20px);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+}
+
+.flex-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.flex-card-img-container {
+  height: 180px;
+  overflow: hidden;
+  position: relative;
+  background-color: #f8f9fa;
+}
+
+.flex-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.flex-card:hover .flex-card-img {
+  transform: scale(1.05);
+}
+
+.flex-card-body {
+  padding: 15px;
+}
+
+.flex-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #273172;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.flex-card-text {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 8px;
+}
+
+.flex-card-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.flex-card-badge {
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+
+.flex-card-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.flex-card-btn {
+  padding: 5px 10px;
+  font-size: 13px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.flex-card-price {
+  font-weight: 600;
+  color: #273172;
+  font-size: 16px;
+}
+
+.flex-card-icon {
+  margin-right: 5px;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .flex-card {
+    flex: 0 0 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+  }
+}
+
+@media (max-width: 992px) {
+  .flex-card {
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .flex-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .flex-card-container {
+    gap: 15px;
+    padding: 10px;
+  }
+}
+
+/* Trạng thái rỗng */
+.flex-empty-state {
+  width: 100%;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.flex-empty-icon {
+  font-size: 3rem;
+  color: #6c757d;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+.flex-empty-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.flex-empty-text {
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+/* Trạng thái loading */
+.flex-loading {
+  width: 100%;
+  text-align: center;
+  padding: 40px 20px;
+}
