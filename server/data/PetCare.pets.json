@@ -1,0 +1,144 @@
+[{
+  "_id": {
+    "$oid": "6827070d6b9b3261659023ef"
+  },
+  "name": "Mực",
+  "species": "Mèo",
+  "breed": "Cam",
+  "age": 1,
+  "gender": "female",
+  "weight": 2,
+  "vaccinated": true,
+  "notes": "a",
+  "image": "http://res.cloudinary.com/dakpa1ph2/image/upload/v1747404484/petservice/image_shop/hfpjz0iqzhyxqqbe2yja.png",
+  "userId": {
+    "$oid": "6825ee32eed18af919a0ed64"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T09:36:13.813Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-16T18:39:16.753Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682728a0f2cdeecc95b467fd"
+  },
+  "name": "Meow",
+  "species": "Mèo",
+  "breed": "Lai",
+  "age": 11,
+  "gender": "male",
+  "weight": 12,
+  "vaccinated": true,
+  "notes": "",
+  "image": "http://res.cloudinary.com/dakpa1ph2/image/upload/v1747396762/petservice/image_shop/by7wwzp9xwqarebi43ya.png",
+  "userId": {
+    "$oid": "6825ee32eed18af919a0ed64"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T11:59:28.818Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-16T11:59:28.818Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682763f16dba4305835b7099"
+  },
+  "name": "Mực 1",
+  "species": "Chó",
+  "breed": "Lai",
+  "age": 1,
+  "gender": "male",
+  "weight": 1,
+  "vaccinated": true,
+  "notes": "",
+  "image": "http://res.cloudinary.com/dakpa1ph2/image/upload/v1747411952/petservice/image_shop/z4ls0mhc7mkg9bakzwag.png",
+  "userId": {
+    "$oid": "6825ee32eed18af919a0ed64"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T16:12:33.214Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-16T16:12:33.214Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682785e06f9c5bf2b94141a0"
+  },
+  "name": "chó 2",
+  "species": "chó",
+  "breed": "husky",
+  "age": 3,
+  "gender": "male",
+  "weight": 5,
+  "vaccinated": true,
+  "notes": "",
+  "image": "http://res.cloudinary.com/dakpa1ph2/image/upload/v1747420640/petservice/image_shop/rvjimoohwohq5cpe9twd.jpg",
+  "userId": {
+    "$oid": "6825ee32eed18af919a0ed64"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T18:37:20.877Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-16T18:37:20.877Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682786026f9c5bf2b94141a2"
+  },
+  "name": "chó 3",
+  "species": "chó",
+  "breed": "shiba",
+  "age": 1,
+  "gender": "female",
+  "weight": 3,
+  "vaccinated": true,
+  "notes": "Shiba",
+  "image": "http://res.cloudinary.com/dakpa1ph2/image/upload/v1747420674/petservice/image_shop/ra5te570qivpwwuvtffj.jpg",
+  "userId": {
+    "$oid": "6825ee32eed18af919a0ed64"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T18:37:54.616Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-16T18:37:54.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68281ffac608d4319e479709"
+  },
+  "name": "test 2",
+  "species": "mèo",
+  "breed": "anh",
+  "age": 1,
+  "gender": "female",
+  "weight": 12,
+  "vaccinated": false,
+  "notes": "",
+  "image": "http://res.cloudinary.com/dakpa1ph2/image/upload/v1747460087/petservice/image_shop/sx34tgqtjgbppyo8lfqf.jpg",
+  "userId": {
+    "$oid": "682738a3f2cdeecc95b469de"
+  },
+  "createdAt": {
+    "$date": "2025-05-17T05:34:50.299Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T05:34:50.299Z"
+  },
+  "__v": 0
+}]

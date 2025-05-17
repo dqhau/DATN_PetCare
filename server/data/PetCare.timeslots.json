@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "68286a1d0fe24f52ff8853d4"
+  },
+  "time": 7,
+  "availableSlots": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68286a260fe24f52ff8853d7"
+  },
+  "time": 8,
+  "availableSlots": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68286a2b0fe24f52ff8853da"
+  },
+  "time": 9,
+  "availableSlots": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68286a2f0fe24f52ff8853dd"
+  },
+  "time": 10,
+  "availableSlots": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68286f709b6753321aeb68b8"
+  },
+  "time": 11,
+  "availableSlots": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68286f799b6753321aeb68be"
+  },
+  "time": 13,
+  "availableSlots": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68286f7d9b6753321aeb68c1"
+  },
+  "time": 14,
+  "availableSlots": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68286f859b6753321aeb68c7"
+  },
+  "time": 15,
+  "availableSlots": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68286f889b6753321aeb68ca"
+  },
+  "time": 16,
+  "availableSlots": 10,
+  "__v": 0
+}]

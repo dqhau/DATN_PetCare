@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "668959f11561a7b14634d6e5"
+  },
+  "name": "Tắm vệ sinh",
+  "description": "Dịch vụ tắm rửa toàn diện bao gồm tắm và cắt tóc",
+  "price": 50000,
+  "duration": "15 minutes",
+  "updatedAt": {
+    "$date": "2025-05-17T03:59:34.357Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "668959f11561a7b14634d6e6"
+  },
+  "name": "Tắm vệ sinh + cắt tỉa lông",
+  "description": "Dịch vụ tắm vệ sinh và cắt tỉa lông cho chó và mèo",
+  "price": 100000,
+  "duration": "30 minutes",
+  "updatedAt": {
+    "$date": "2025-05-17T03:59:15.940Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "668959f11561a7b14634d6e7"
+  },
+  "name": "Cạo + tắm vệ sinh + cắt tỉa lông",
+  "description": "Dịch vụ cạo lông, tắm vệ sinh và cắt tỉa lông toàn diện",
+  "price": 300000,
+  "duration": "45 minutes",
+  "updatedAt": {
+    "$date": "2025-05-17T03:51:06.962Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682432ed79206bf9c099f161"
+  },
+  "name": "Tiêm vacxin",
+  "description": "Tiêm cho thú cưng",
+  "price": 150000,
+  "duration": "20 minutes",
+  "createdAt": {
+    "$date": "2025-05-14T06:06:37.233Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T03:50:33.451Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6826ffbdfa0f72bf36e95e06"
+  },
+  "name": "Khám bệnh",
+  "description": "Khám bệnh cho các thú cưng như chó, mèo",
+  "price": 200000,
+  "duration": "30 minutes",
+  "createdAt": {
+    "$date": "2025-05-16T09:05:01.714Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T03:51:24.610Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682884736cb337b6e0178244"
+  },
+  "name": "Gửi trông giữ thú cưng",
+  "description": "PetCare cung cấp các phòng chăm sóc thú cưng cho chủ nuôi khi họ có nhu cầu",
+  "price": null,
+  "duration": " minutes",
+  "createdAt": {
+    "$date": "2025-05-17T12:43:31.535Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T12:43:31.535Z"
+  },
+  "__v": 0
+}]

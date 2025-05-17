@@ -1,0 +1,132 @@
+[{
+  "_id": {
+    "$oid": "6825eafceed18af919a0ebb5"
+  },
+  "fullname": "Dao Quang Hau admin",
+  "username": "admin1",
+  "password": "123456",
+  "gender": "Male",
+  "birthday": "2025-05-01",
+  "phone": "0973605900",
+  "address": "Lương Tài, Văn Lâm, Hưng Yên",
+  "role": "admin",
+  "pets": [],
+  "createdAt": {
+    "$date": "2025-05-15T13:24:12.194Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-16T18:24:45.362Z"
+  },
+  "__v": 0,
+  "gmail": "daoquanghau2003@@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "6825ee32eed18af919a0ed64"
+  },
+  "fullname": "Đào Quang Hậu 1",
+  "username": "test1",
+  "gmail": "haudaoquang7@gmail.com",
+  "password": "$2b$10$mecJcgsNXEvmSubBaTqNFO7dB16Xa55j9n9MbM0bjg3IcLmakFvSG",
+  "gender": "Male",
+  "birthday": "2025-05-09",
+  "phone": "0973605900",
+  "address": "Lương Tài, Văn Lâm, Hưng Yên",
+  "role": "user",
+  "pets": [
+    {
+      "name": "Mực",
+      "species": "1",
+      "breed": "Thuần",
+      "age": 12,
+      "gender": "Male",
+      "vaccinated": true,
+      "notes": "",
+      "image": "http://res.cloudinary.com/dakpa1ph2/image/upload/v1747316345/petservice/image_shop/vj9dhbgx2zpx9y3sw3jn.png",
+      "weight": 10,
+      "_id": {
+        "$oid": "6825ee7beed18af919a0eda5"
+      }
+    },
+    {
+      "name": "cao",
+      "species": "1",
+      "breed": "Thuần",
+      "age": 12,
+      "gender": "Male",
+      "vaccinated": true,
+      "notes": "",
+      "image": "http://res.cloudinary.com/dakpa1ph2/image/upload/v1747316369/petservice/image_shop/nivqgjcnzdjwitzv9kbw.png",
+      "weight": 10,
+      "_id": {
+        "$oid": "6825ee7ceed18af919a0eda9"
+      }
+    },
+    {
+      "name": "Mực",
+      "species": "1",
+      "breed": "Thuần",
+      "age": 12,
+      "gender": "",
+      "vaccinated": false,
+      "notes": "",
+      "image": "http://res.cloudinary.com/dakpa1ph2/image/upload/v1747316356/petservice/image_shop/czginrtdhwlitjmjdgnm.png",
+      "weight": 0,
+      "_id": {
+        "$oid": "6825ee86eed18af919a0edae"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-15T13:37:54.028Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-16T16:33:58.743Z"
+  },
+  "__v": 3,
+  "avatar": "http://res.cloudinary.com/dakpa1ph2/image/upload/v1747413238/petservice/image_shop/q4dcemzwns1nztrwj9nk.jpg"
+},
+{
+  "_id": {
+    "$oid": "682738a3f2cdeecc95b469de"
+  },
+  "fullname": "Dao Quang Hau 2",
+  "username": "test2",
+  "gmail": "",
+  "password": "$2b$10$OKW0IZak7QPeV5e5ApOFxOq9ENCXssTtJlGX6y2IUoDANntv.bFLW",
+  "gender": "",
+  "birthday": "",
+  "phone": "",
+  "address": "",
+  "role": "user",
+  "pets": [],
+  "createdAt": {
+    "$date": "2025-05-16T13:07:47.664Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-16T13:07:47.664Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682783b16f9c5bf2b941403d"
+  },
+  "fullname": "Dao Quang Hau 3",
+  "username": "test3",
+  "gmail": "",
+  "password": "$2b$10$mecJcgsNXEvmSubBaTqNFO7dB16Xa55j9n9MbM0bjg3IcLmakFvSG",
+  "gender": "",
+  "birthday": "",
+  "phone": "",
+  "address": "",
+  "avatar": "",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-05-16T18:28:01.066Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-16T18:28:01.066Z"
+  },
+  "__v": 0
+}]
